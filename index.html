@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Scope Challenge Questions</title>
+</head>
+
+<body>
+    <p>
+        Questions
+    </p>
+    <p>
+        What is scope? Your explanation should include the idea of global vs. local scope.
+    </p>
+    <p>
+        Scope refers to how variables and functions are accessed and executed in your code. Scope can be either global or local. Global scope refers to when a variable is defined outside of a function that is accessible from any place in the code. Unlike Global scope, a local scope exists when a variable is defined inside a function and it can only be accessed within that same function.
+    </p>
+    <p>
+        Why are global variables avoided?
+    </p>
+    <p>
+        Global variables are avoided because it increases the likelihood of unintended side effects that will cause your code to become indeterminate, which is when a function returns inconsistent values, drawing different outputs for the same input. This will make it very difficult to debug your code.
+    </p>
+    <p>
+        Explain JavaScript's strict mode
+    </p>
+    <p>
+        Strict mode was designed to assist developers in making fewer errors. When the strict mode command, ‘use strict’; , is added to your code, an error will be generated if you do not declare a variable with the keyword “var”. This is to prevent you from accidently creating a global variable.
+    </p>
+    <p>
+        What are side effects, and what is a pure function?
+    </p>
+    <p>
+        Side effects occur when a function looks outside its local scope, moving up into the parent scope, changing the value of its variable. A code with side effects is deemed indeterminate. A pure function is a function that always returns the same output for the same given input values. It is regarded as both determinate and side effect free.
+    </p>
+    <p>
+        Explain variable hoisting in JavaScript.
+    </p>
+    <p>
+        Variable hoisting refers to the unusual way the JavaScript interpreter locates every variable declaration within a given scope and moves that declaration to the top of that scope. To avoid bugs, it is recommended that developers use a variable declaration statement at the beginning of every scope.
+    </p>
+    </p>
+</body>
+
+</html>
